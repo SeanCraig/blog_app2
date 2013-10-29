@@ -11,7 +11,7 @@ set :branch, "master"
 set :use_sudo, true
 
 
-server "serendipityuk@cloudapp.net", :web, :app, :db, primary: true
+server "serendipityuk.cloudapp.net", :web, :app, :db, primary: true
 
 
 set :deploy_to, "/home/#{user}/#{application}"
